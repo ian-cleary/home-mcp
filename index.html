@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home MCP (Ian Cleary)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light dark;--bg:#eef1f3;--ink:#11181c;--muted:#4e5b63;--accent:#f2bf24;--line:#c9d0d4}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1418;--ink:#edf2f4;--muted:#afbcc3;--line:#34434c;--accent:#f5c847}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:17px;line-height:1.6}
+.topline{height:7px;background:var(--accent)}
+.wrap{max-width:640px;margin:0 auto;padding:36px 22px 70px}
+h1{font-family:"Barlow Condensed",system-ui,sans-serif;font-weight:700;font-size:clamp(40px,9vw,60px);line-height:1;margin:12px 0 4px}
+.sub{color:var(--muted);font-size:14px;letter-spacing:.06em;text-transform:uppercase;margin:0 0 26px}
+.card{border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:16px 0}
+footer{color:var(--muted);font-size:13px;margin-top:30px}
+a{color:inherit}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<div class="wrap">
+  <h1>Home MCP (Ian Cleary)</h1>
+  <p class="sub">Personal smart-home integration</p>
+
+  <div class="card">
+    <p><strong>Home MCP (Ian Cleary)</strong> is a personal, single-user integration that connects Ian Cleary's own Google Home household to his own personal AI assistant.</p>
+    <p>It is <strong>not a commercial product</strong>. It is not offered to anyone else, there is no sign-up, and it cannot be used by anyone other than Ian.</p>
+  </div>
+
+  <div class="card">
+    <p>To work, it asks Google for permission to read Ian's Google Home device state and event history (the <code>home.platform.v2</code> scope) — only for his own household, and only so his assistant can answer his questions and carry out actions he approves.</p>
+    <p>How that data is handled is described in the <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+
+  <footer>Last updated 16 October 2026.</footer>
+</div>
+</body>
+</html>
